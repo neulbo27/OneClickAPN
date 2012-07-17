@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
-	<RelativeLayout
-		xmlns:android="http://schemas.android.com/apk/res/android"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent"
-		android:layout_weight="1"
-		>
-		<ListView
-			android:id="@+id/list"
-			android:layout_width="fill_parent"
-			android:layout_height="wrap_content"
-			android:layout_alignParentTop="true">
-		</ListView>
-	</RelativeLayout>
-	<LinearLayout
-		android:id="@+id/adlayout"
-		android:layout_width="fill_parent"
-		android:layout_height="wrap_content">
-	</LinearLayout>
-</LinearLayout>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wizard"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OneClick APN"
+        android:textColor="#ffffff" />
+
+    <Spinner
+		android:id="@+id/countryspinner"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	/>
+    <Button
+        android:id="@+id/ctnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        />
+</RelativeLayout>
