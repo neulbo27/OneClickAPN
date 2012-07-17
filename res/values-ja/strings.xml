@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">OneClick APN</string>
+    <string name="warning">APNを追加することは、Androidのシステムを変更することなのでシステムに問題が生じる可能性があり、この場合、開発者は責任を負いません。続行しますか？</string>
+<string name="app_info">このアプリはスマートフォンでは、他の通信会社に移った時に必要なAPNの設定を二度のタッチだけで設定してくれることができるアプリです。\n</string>
+    <string name="proj_member">KOREA APN プロジェクトに参加した人\n企画 : Sunghoon Kang、Hankyu Lee\n製作 : Hankyu Lee, Sunghoon Kang, Jaeseok Kang, Kihan Park\nデザイン : Kyuhwan Choi\nThanks To. Samsung OCEAN, JaeYoung Choi>
+</string>
+    <string name="update">アップデート内容\n2011.12.28\nV1.5.1\nAndroidの開発プログラムがそのパーツをサポートしなくて、最新バージョンのICS(Android 4.0)ではサポートされていません。\n\n2011.12.11\nV1.5\nBug Patch\n\nver1.4\n日本語 サポート\n</string>
+    <string name="A">注意</string>
+    <string name="B">設定 完了</string>
+    <string name="C">設定が完了しました。</string>
+</resources>

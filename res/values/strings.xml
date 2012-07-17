@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">OneClick APN</string>
+    <string name="warning">"Adding APN is modifying elements of the Android OS's system, so the system can cause problem.\nAnd in this case, the developer shall not be liable. Do you want to continue?\n"</string>
+    <string name="app_info">This application can setting your APN by only two touch, when you moved other mobile operators or installed custom ROM.\n</string>
+    <string name="proj_member">Who participated in OneClick APN project\nEnterpeised By SungHoon Kang, HanKyu Lee\nDeveloped By KiHan Park, JaeSeok Kang, HanKyu Lee, SungHoon Kang\nDesign By. GyuHwan Choi\nThanks To. Samsung OCEAN, JaeYoung Choi</string>
+    <string name="update">"Version Info\n2011.12.28\nV1.5.1\nStop ICS(Android 4.0) support from the Android SDK Unsupported\n\n2011.12.11\nV1.5\nBug Patch\n\n2011.10.16\nV1.4\nEnglish support"</string>
+    <string name="A">Warning</string>
+    <string name="B">Complete</string>
+    <string name="C">APN Setting is Complete!</string>
+</resources>

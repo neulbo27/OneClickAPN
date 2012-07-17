@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+	<ScrollView
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_weight="1">
+		<RelativeLayout
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content">
+		    <ImageView
+		      android:id="@+id/appsimbol"
+		      android:padding="10dp"
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content"
+		      android:layout_alignParentLeft="true"
+		      android:src="@drawable/korapnicon"/>
+		    <TextView
+		    	android:id="@+id/app_info"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/app_info"
+				android:layout_below="@id/appsimbol"
+				android:padding="10dp"
+				android:layout_alignParentLeft="true"/>
+		    <TextView
+		    	android:id="@+id/dev_info"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/proj_member"
+				android:padding="10dp"
+				android:layout_below="@id/app_info"
+				android:layout_alignParentLeft="true"/>
+		    <TextView
+				android:id="@+id/app_build"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/dev_info"
+				android:padding="10dp"
+				android:layout_alignParentLeft="true"
+				android:text="@string/update"/>
+
+		    <TextView
+		        android:id="@+id/app_name"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignBottom="@+id/appsimbol"
+		        android:layout_toRightOf="@+id/appsimbol"
+		        android:padding="10dp"
+		        android:text="@string/app_name"
+		        android:textColor="#000000"
+		        android:textSize="10pt" />
+
+		</RelativeLayout>
+	</ScrollView>
+	<LinearLayout
+	android:id="@+id/infoadlayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	</LinearLayout>
+</LinearLayout>

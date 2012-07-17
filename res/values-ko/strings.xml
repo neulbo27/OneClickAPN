@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">OneClick APN</string>
+    <string name="warning">APN추가는 안드로이드 시스템요소를 수정하는 것이므로 시스템에 악영향을 끼칠 수 있으며 이 경우 개발자는 책임을 지지 않습니다. 계속 하시겠습니까?</string>
+    <string name="app_info">본 애플리케이션은 스마트폰에서 다른 이동통신사로 옮기셨을 때 APN설정을 단 두번의 클릭으로 설정해 드리는 애플리케이션입니다.\n</string>
+    <string name="proj_member">OneClick APN 프로젝트 참여 팀원\n기획:강성훈, 이한규\n제작:이한규, 강성훈, 강재석, 박기한\n디자인:최규환\nThanks To. Samsung OCEAN, JaeYoung Choi</string>
+    <string name="update">버전 릴리즈 정보\n2011.12.28\nV1.5.1\n안드로이드 SDK 미지원으로 인한 ICS(안드로이드 4.0) 지원 중단\n\n2011.12.11\nV1.5\nBug 수정\n\n2011.12.10\n1.4\n영어 및 일본어 지원\n미국, 일본 통신사 apn 추가\n\n2011.11.06\nV1.3\n아이콘 이미지, 스플래시 이미지 수정\n정보 액티비티 버전 부분 삭제2011.10.30\nV1.2\n스플래시에서 이전키를 누를 시 종료되지 않는 버그 수정\n가로 화면에서 팝업이 깨지는 화면 수정\n정보 액티비티가 가로로 변경되어 글씨가 잘리는 현상 수정\n이외 각종 알려진 버그 수정\n\n2011.10.18\nV1.1\n경고 팝업창에서 이전키를 누를 시 홈 액티비티로 돌아가지 않는 버그 수정\n\n2011.10.17\nV1.0.1\n앱 정보 수정\n\n2011.10.16\nV1.0\n정식버전 릴리즈\n\n</string>
+	<string name="A">경고</string>
+    <string name="B">설정 완료</string>
+    <string name="C">설정이 완료되었습니다~!</string>
+</resources>
